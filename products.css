@@ -52,7 +52,7 @@
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
 }
 .trending-section, .all-products-section{
-    padding: 40px 20px;
+    padding: 40px;
     background: #fff;
 }
 .trending-section h2, .all-products-section h2{
@@ -150,7 +150,7 @@
     padding: 10px 20px;
     border-radius: 25px;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.0em;
     z-index: 10;
 }
 .product-card h3{
@@ -312,6 +312,7 @@
     }
     .trending-section, .all-products-section {
         padding: 20px 10px;
+        /* gap: 0; */
     }
     .trending-section h2, .all-products-section h2 {
         font-size: 1.8em;
@@ -329,10 +330,11 @@
     }
     .product-grid {
         /* grid-template-columns: 1fr 1fr; */
-        /* gap: 15px; */
-        padding: 0 10px;
+        gap: 0px;
+        padding: 0;
     }
     .product-card {
+        /* border: 1px solid red; */
         padding: 10px;
         border-radius: 12px;
     }
