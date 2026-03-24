@@ -63,7 +63,8 @@ function renderProductCard(prod, container) {
         <img src="${prod.img[0]}" alt="${prod.name}" style="width:100%; height:200px; object-fit:cover; border-radius:8px 8px 0 0;" />
         <h3><a class="product-detail-link" href="product.html?id=${encodeURIComponent(prod.id)}">${prod.name}</a></h3>
         <div class="meta">Color: ${prod.color}</div>
-        <div class="meta">Price: ₦${prod.price} | Available: ${prod.quantity}</div>
+        <div class="meta">Price: ₦${prod.price}</div>
+        <div class="meta">Available: ${prod.quantity}</div>
         <div class="quantity-control">
             <label>Qty:</label>
             <input type="number" min="1" max="${prod.quantity}" value="1" ${outOfStock ? "disabled" : ""} />
