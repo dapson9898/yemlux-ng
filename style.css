@@ -9,7 +9,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-body{
+.body{
     width: 100%;
     min-height: 100vh;
     display: flex;

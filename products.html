@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Yemlux</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>YEMLUX Products</h1>
+        <div class="header-actions">
+            <a href="cart.html" class="btn">Cart</a>
+            <a href="index.html" class="btn">Home</a>
+        </div>
+    </header>
+
+    <section class="search-section">
+        <input type="text" id="searchInput" placeholder="Search by name, description, color, category" />
+    </section>
+
+    <section class="trending-section">
+        <h2>Trending Products</h2>
+        <div id="trendingContainer" class="product-grid"></div>
+    </section>
+
+    <section class="filter-section">
+        <div id="filterButtons" class="filter-buttons">
+            <button data-cat="all" class="active">All</button>
+            <button data-cat="Fila">Fila</button>
+            <button data-cat="Vintage">Vintage</button>
+            <button data-cat="Tees & Trousers">Tees & Trousers</button>
+            <button data-cat="Kaftan">Kaftan</button>
+        </div>
+    </section>
+
+    <section class="all-products-section">
+        <h2>All Products</h2>
+        <div id="productsContainer" class="product-grid"></div>
+    </section>
+
+    <script src="src/product.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>

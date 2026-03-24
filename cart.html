@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Yemlux</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>Shopping Cart</h1>
+        <div class="header-actions">
+            <a href="products.html" class="btn">Products</a>
+            <a href="index.html" class="btn">Home</a>
+        </div>
+    </header>
+
+    <main class="cart-page">
+        <div id="cartList" class="cart-list"></div>
+        <div class="cart-summary">
+            <h3>Total: ₦<span id="totalPrice">0</span></h3>
+            <button id="checkoutBtn" class="btn checkout">Checkout via WhatsApp</button>
+        </div>
+    </main>
+
+    <script src="src/product.js"></script>
+    <script src="cart-page.js"></script>
+</body>
+</html>
