@@ -191,7 +191,7 @@ const products = [
         description: "Classic vintage style wear.",
         size: "XXL",
         color: "Maroon",
-        trending: true,
+        trending: false,
         img: ["./img/fila.jpeg", "./img/logo_black.jpeg", "./img/logo_white.jpeg"]
     },
     {
@@ -217,7 +217,7 @@ const products = [
         description: "Vibrant wax print fila.",
         size: "M",
         color: "Orange",
-        trending: true,
+        trending: false,
         img: ["./img/fila.jpeg", "./img/logo_black.jpeg", "./img/logo_white.jpeg"]
     },
     {
@@ -243,7 +243,7 @@ const products = [
         description: "Trendy distressed vintage wear.",
         size: "XL",
         color: "Black",
-        trending: true,
+        trending: false,
         img: ["./img/fila.jpeg", "./img/logo_black.jpeg", "./img/logo_white.jpeg"]
     },
     {
