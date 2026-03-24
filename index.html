@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>yemlux ng</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="dash" id="sidebar">
+        <div class="brand">
+            <h1>YEMLUX.NG</h1>
+            <img src="./img/fila.jpeg" alt="Fila Sidebar img" id="toggle-btn">
+        </div>
+        <ul class="dash_lists">
+            <li data-section="dashboard">Dashboard</li>
+            <li data-section="about">About</li>
+            <li data-section="gallery">Gallery</li>
+            <li data-section="shop">Shop</li>
+            <li data-section="contact">Contact</li>
+        </ul>
+    </div>
+
+
+    <div class="content">
+        <!-- Dashboard Content -->
+        <div id="dashboard" class="section active">
+            <h2>Dashboard</h2>
+            <p>Welcome to the Dashboard.</p>
+        </div>
+
+        <!-- About Content -->
+        <div id="about" class="section">
+            <h2>About</h2>
+            <p>Information about YEMLUX.NG.</p>
+        </div>
+
+        <!-- Gallery Content -->
+        <div id="gallery" class="section">
+            <h2>Gallery</h2>
+            <p>View our gallery.</p>
+        </div>
+
+        <!-- Shop Content -->
+        <div id="shop" class="section">
+            <h2>Shop</h2>
+            <p>Shop our products.</p>
+        </div>
+
+        <!-- Contact us Content -->
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Get in touch.</p>
+        </div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
